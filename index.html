@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Time</title>
+</head>
+<body>
+    <div class="time">
+        <div class="box hours-box">
+            <span>HOURS</span>
+            <h1 class="box-text hours">00</h1>
+        </div>
+        <div class="box minutes-box">
+            <span>MINUTES</span>
+            <h1 class="box-text minutes">00</h1>
+        </div>
+        <div class="box seconds-box">
+            <span>SECONDS</span>
+            <h1 class="box-text seconds">00</h1>
+        </div>
+        <div class="box milisec-box">
+            <span>MILISECONDS</span>
+            <h1 class="box-text milisec">00</h1>
+        </div>
+    </div>
+    <div class="btn-container">
+        <div class="text-box start">
+            <a href="#" class="btn btn-white btn-animate"><i class="fas fa-play"></i>PLAY</a>
+        </div>
+
+        <div class="text-box pause">
+            <a href="#" class="btn btn-white btn-animate"><i class="fas fa-pause"></i>PAUSE</a>
+        </div>
+
+        <div class="text-box restart">
+            <a href="#" class="btn btn-white btn-animate"><i class="fas fa-power-off"></i>RESTART</a>
+        </div>
+        
+    </div>
+    <div class="time-title">Time flies <i class="fas fa-clock"></i></div>
+    <script src="./app.js"></script>
+</body>
+</html>
